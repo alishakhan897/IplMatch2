@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.iamge {
+  height: 10vh;
+  width: 10vh;
+}
+.list-container {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .iamge {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .iamge {
+    height: 8vh;
+    width: 8vh;
+  }
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+}
+.name-haed {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.heading {
+  color: white;
+  font-family: 'Bree-Serif';
+  text-align: center;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .name-haed {
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
+.link-class {
+  width: 50%;
+  text-decoration: none;
+}
